@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid #fff;
+    height: 400px;
+    width: 800px;
+    box-shadow: 10px 10px 15px rgba(192, 183, 183), -10px -10px 15px rgba(192, 183, 183);
+
+
+
+}
+
+.hey {
+    font-size: 35px;
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#message-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    border: #fff;
+    margin: 20px;
+    box-shadow: 10px 10px 15px rgba(192, 183, 183), -10px -10px 15px rgba(192, 183, 183);
+    font-size: 2rem;
+
+}
+
+.box:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+
+}
+
+#submitBtn {
+    width: 200px;
+    padding: 10px 10px 5px 5px;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #fff;
+    color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.show {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+
+
+}
+
+.message-content {
+    text-align: center;
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        width: 400px;
+    }
+    #message{
+        width: 300px;
+    }
+
+    .hey {
+        font-size: 20px;
+    }
+
+    .box {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 8px 15px;
+    }
+
+    .feedback {
+        font-size: 14px;
+    }
+
+    .message-content {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #efeff2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ .Calculator{
+    width:300px;
+    height:500px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    background-color: #22252d;
+    overflow: hidden;
+    position: fixed;
+}
+form input{
+    width: 100%;
+    height:150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #ffff;
+    background-color: #000;
+    text-align: right;
+    /* to disolve the clicking means screen unclickable so no one can change from screen clicking  */
+    pointer-events: none;
+     
+}
+
+button{
+    border: 1px solid #000;
+    width:60px;
+    height:52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.btn-yellow{
+    background-color: rgb(245, 146, 62);
+    color: #ffff;
+
+}
+.btn-grey{
+    background-color: rgb((224,224,224));
+}
+.btn-equal{
+    background-color: green;
+}
+.btn-clear{
+    background-color: red;
+}
