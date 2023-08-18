@@ -377,7 +377,7 @@ cursor: pointer;
     .image img {
       width: 100%;
       height: auto;
-      margin-top: 20px;
+      margin-top: 70px;
     }
    #hide{
     display: none;
@@ -387,6 +387,9 @@ cursor: pointer;
    }
    .ul{
     display: flex;
+       margin-left:0;
+       margin-right:0
+       
    }
      nav ul li{
         margin: 5px 10px;
