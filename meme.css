@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: "poopins",sans-serif;
+}
+body,html{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* height: 300px; */
+    /* height: 60%; */
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    
+}
+.btn{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 35px;
+    border-radius: 15px;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+.meme-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.container img{
+    margin-top: 10px;
+    height: 430px;
+    object-fit: cover;
+}
+.meme-author{
+    margin: 10px;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        text-align: center;
+        padding: 10px;
+    }
+    .meme-title {
+        font-size: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .meme-author {
+        font-size: 14px;
+    }
+}
