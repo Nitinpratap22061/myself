@@ -377,7 +377,7 @@ cursor: pointer;
     .image img {
       width: 100%;
       height: auto;
-      margin-top: 70px;
+      margin-top: 90px;
     }
    #hide{
     display: none;
@@ -392,11 +392,9 @@ cursor: pointer;
        
    }
      nav ul li{
-        margin: 5px 10px;
+        margin: 10px 5px;
      }
-     .logo{
-        text-align: center;
-     }
+     
     
     /* Adjust about section columns */
     .about-col-1,
